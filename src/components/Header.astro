@@ -1,10 +1,19 @@
-<header class="py-4">
-    <div class="py-16 flex flex-col lg:flex lg:flex-row lg:justify-between">
-        <img class="basis-1/5 mx-auto py-8" src="/favicon.svg" alt="Un feroz gato gris dentro de un carrito de compras impulsando tu negocio" width="128px">
-        <div class="basis-3/5 flex flex-col mx-auto py-8 justify-center ">
-            <h2 class="mx-auto text-7xl text-center text-yellow-500 ">Shabull MKT</h2>
-            <h1 class="mx-auto text-center text-2xl">¡Impulsando al siguiente nivel tu negocio!</h1>
+---
+import { Image } from "astro:assets";
+import Cat from "../images/favicon.svg"
+---
+
+<header>
+    <nav class="font-mono lg:font-mono" >
+        <div class="flex flex-col lg:flex lg:flex-row lg:justify-between ">
+            <h2 class="mx-auto text-6xl py-4 my-auto lg:py-4 lg:mx-4 " >Shabull MKT</h2>
+            <div>
+                <ul class="flex flex-col lg:flex lg:flex-row font-mono lg:font-mono">
+                    <li class="mx-auto text-4xl px-2 py-2 border-solid border-2 lg:border-blue-700 invisible lg:visible  lg:mx-4 lg:py-4 lg:text-3xl">Inicio</li>
+                    <li class="mx-auto text-4xl px-2 py-2 border-solid border-2 lg:border-blue-700 lg:mx-4 lg:py-4 lg:text-3xl">Acerca de</li>
+                    <li class="mx-auto text-4xl px-2 py-2 border-solid border-2 lg:border-blue-700 lg:mx-4 lg:py-4 lg:text-3xl">Servicios</li>
+                </ul>
+            </div>
         </div>
-        <img class="basis-1/5 my-auto mx-auto py-8 " src="/yestonks.png" alt="impulsando hacia arriba" width="128px" height="128px">
-    </div>
+    </nav>
 </header>
